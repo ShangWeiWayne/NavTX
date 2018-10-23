@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+.footer {
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    height: 5vh;
+    background: #929292;
+    /* position:absolute; */
+}
+
+.main_container{
+    display: flex;
+}
+.left_container{
+    flex: 4;
+}
+.right_container{
+    flex: 1;
+    background: #EAEBEC;
+}
+
+.zindex {
+    z-index: -5000;
+}
